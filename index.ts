@@ -32,7 +32,7 @@ if (!token) {
   throw new Error("Missing DISCORD_BOT_TOKEN. Add it in Replit Secrets.");
 }
 
-const audioDirectory = fileURLToPath(new URL("../audio/", import.meta.url));
+const audioDirectory = fileURLToPath(new URL("./", import.meta.url));
 const autoJoinUsername = "sora107_";
 const supportedAudioExtensions = new Set([
   ".aac",
