@@ -11,7 +11,8 @@
   "dependencies": {
     "@discordjs/voice": "^0.19.2",
     "discord.js": "^14.27.0",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "opusscript": "^0.9.1"
   },
   "devDependencies": {
     "@types/express": "^5.0.6",
